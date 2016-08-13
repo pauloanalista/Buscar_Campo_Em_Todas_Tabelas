@@ -1,10 +1,11 @@
+--use NomeDoBancoDeDados
+
 --Buscar campo em todas as tabelas
 declare @campo varchar(max)
 
 SET @campo = 'DataModificacao';
 
 
---use testing_buy4_bo
 SELECT 
 	T.name AS Tabela, 
 	C.name AS Coluna
